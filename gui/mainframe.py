@@ -41,3 +41,6 @@ class Mainframe:
 #        content_frame.pack()        
         
         root.mainloop()
+
+    def __call__(self):
+        pass

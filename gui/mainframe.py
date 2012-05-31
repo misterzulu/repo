@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-'''avoid conflicts between 2 Image classes of Tkinter & PIL '''
+
 import Tkinter as tk
+'''avoid conflicts between 2 Image classes of Tkinter & PIL '''
 from PIL import Image, ImageTk
 
 class Mainframe:
@@ -33,7 +34,9 @@ class Mainframe:
 
         right_panel = tk.Label(paned_window, text="right panel")
         paned_window.add(right_panel)
-
+        
+        b_artist = tk.Button(right_panel, text="Kate Bush", relief="ridge")
+        b_artist.pack()
 
 
 #        content_frame = tk.Frame(root, width=w, height=h)
